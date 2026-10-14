@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title desc">
+  <title id="title">Manifesto astratto Atlante</title>
+  <desc id="desc">Composizione geometrica blu, crema e arancio con una griglia di coordinate.</desc>
+  <rect width="800" height="560" fill="#183a5a"/>
+  <circle cx="580" cy="180" r="135" fill="#f36a3d"/>
+  <rect x="68" y="70" width="300" height="410" fill="#f3edda"/>
+  <g fill="none" stroke="#183a5a" stroke-width="4">
+    <path d="M112 130h210M112 190h210M112 250h210M112 310h210M112 370h210M112 430h210"/>
+    <path d="M152 104v340M212 104v340M272 104v340"/>
+  </g>
+  <text x="430" y="430" fill="#f3edda" font-family="Arial, sans-serif" font-size="58" font-weight="700">ATLANTE</text>
+  <text x="433" y="470" fill="#f3edda" font-family="Arial, sans-serif" font-size="22">COORDINATE QUOTIDIANE</text>
+</svg>

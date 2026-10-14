@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template generico — titolo da sostituire</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+    <header class="site-header" id="inizio">
+      <a class="brand" href="#inizio">Studio Intervallo</a>
+      <nav aria-label="Navigazione principale">
+        <ul class="nav-list">
+          <li><a href="#lavori">Lavori</a></li>
+          <li><a href="#studo">Studio</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contenuto">
+      <section class="hero" aria-labelledby="titolo-pagina">
+        <p class="eyebrow">Identità visive e spazi culturali</p>
+        <h1 id="titolo-pagina">Progettiamo pause che lasciano il segno.</h1>
+        <p class="hero-copy">
+          Uno studio indipendente che trasforma ricerca, immagini e parole in
+          sistemi visivi chiari.
+        </p>
+      </section>
+
+      <section class="projects" id="lavori" aria-labelledby="titolo-lavori">
+        <div class="section-heading">
+          <h2 id="titolo-lavori">Lavori selezionati</h2>
+          <p>Due progetti, due modi diversi di creare ritmo.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img
+              src="assets/atlante.svg"
+              alt="Manifesto blu e arancio per la rassegna culturale Atlante"
+              width="800"
+              height="560"
+            >
+            <div class="project-content">
+              <p class="project-type">Identità / 2026</p>
+              <h3>Atlante quotidiano</h3>
+              <p>Un sistema editoriale che trasforma la città in una collezione di coordinate.</p>
+              <button
+                class="details-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="nota-atlante"
+              >
+                Mostra il dettaglio
+              </button>
+              <p class="project-note" id="nota-atlante" hidden>
+                Il reticolo deriva dalle distanze percorse a piedi durante una settimana.
+              </p>
+            </div>
+          </article>
+
+          <section class="project-card">
+            <img
+              src="assets/onda.svg"
+              alt="immagine"
+              width="800"
+              height="560"
+            >
+            <div class="project-content">
+              <p class="project-type">Exhibition design / 2026</p>
+              <h4>Onda lunga</h4>
+              <p>Una mostra sonora in cui tipografia e luce seguono il movimento dei visitatori.</p>
+              <button
+                class="details-button"
+                type="button"
+                aria-expanded="false"
+                aria-controls="nota-onda"
+              >
+                Mostra il dettaglio
+              </button>
+              <p class="project-note" id="nota-onda" hidden>
+                La segnaletica usa soltanto due pesi tipografici e un colore fluorescente.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="studio" id="studio" aria-labelledby="titolo-studio">
+        <div>
+          <p class="eyebrow">Come lavoriamo</p>
+          <h2 id="titolo-studio">Prima osserviamo, poi togliamo.</h2>
+        </div>
+        <p>
+          Costruiamo identità, pubblicazioni e allestimenti insieme a istituzioni
+          culturali e piccole organizzazioni.
+        </p>
+        <aside class="studio-note" aria-label="Nota sul metodo">
+          Ogni progetto inizia con una settimana senza proposte grafiche.
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contatti">
+      <p>Torino · <a href="mailto:ciao@example.com">ciao@example.com</a></p>
+      <p>© <span id="anno">2026</span> Studio Intervallo</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
